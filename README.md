@@ -1,0 +1,2 @@
+# outliers
+Trabalho de TSI

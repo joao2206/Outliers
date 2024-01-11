@@ -1,0 +1,739 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Oswald:wght@400;500;700&family=Poppins:wght@300;400;500;700&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.navbar {
+	z-index: 1;
+}
+
+main {
+	background: url("img/fundo1.png") no-repeat center center;
+	background-size: cover;	
+	height: 88vh;
+		
+}
+
+article{	
+	padding: 25px;		
+	width: 70%;	
+	height: 100%;
+	
+}
+
+article p{
+	
+	color: #212525;
+	font-size: 0.9rem;	
+	font-family:'Poppins', sans-serif;
+	text-align: left;
+	line-height: 2rem;
+	font-weight: 500;
+}
+
+footer {
+	background-color: #212529;	
+	padding: 20px;
+	height: 6vh;	
+	clear: left;
+	
+}
+
+#footer-p {	
+	text-align: center;
+	color: #FFF;	
+}
+
+footer a {
+	color: red;
+	text-decoration: none;
+}
+
+footer a:hover {
+	color: #A9A9A9;
+}
+
+/*orcamento_pcs8*/
+
+#pag-orcamento {
+	background: url("img/fundo.png") no-repeat center center;
+	background-size: cover;
+	background-color: #4F4F4F;
+	height: 100%;
+	padding: 30px;
+}
+
+h1 {
+	color: #FFF;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 2.2rem;
+	padding: 30px;
+
+
+}
+
+h2 {
+	color: #FFF;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.7rem;
+	margin-bottom: 10px;
+	padding: 40px;
+}
+
+.accordion-button {
+	color: #363636;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.accordion-button:hover {
+	color: #EE0000;
+}
+
+.accordion-button:active {
+	color: #EE0000;
+}
+
+.accordion-body {
+	display: flex;
+	flex-wrap: wrap;
+	margin: auto;
+}
+
+.card-preco {
+	background-color: #fff;
+	margin: 15px;
+	width: 14%;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px #9E9E9E;
+	transition: 0.5s;
+}
+
+.card-preco:hover {
+	box-shadow: 0px 8px 16px #9E9E9E;
+}
+
+
+.card-preco img {
+	width: 100%;
+	height: 150px;
+}
+
+.card-preco h4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.card-preco a {
+	text-align: left;
+	padding: 10px;
+
+}
+
+h4 {
+	color: #363636;
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+	font-size: 1rem;
+	padding: 4px;
+	font-weight: 700;
+
+}
+
+.card-links {
+	text-decoration: none;
+	color: red;
+	font-size: 0.85rem;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	display: flex;
+	margin: 5px;
+}
+
+.barato {
+	color: #00CD66;
+}
+
+.medio {
+	color: #FF8C00;
+}
+
+.caro {
+	color: #EE0000;
+}
+
+#total_orca {
+	background-color: #363636;
+	color: #708090;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	padding: 10px;
+	text-align: center;
+}
+
+
+/*decadas*/
+.layout-float {}
+
+.menu-lateral {
+	width: 13%;
+	height: 100vh;
+	background-color: #363636;
+	float: left;
+	position: sticky;
+	top: 0;
+	text-align: left;
+	line-height: 3.0rem;
+}
+
+ul {
+	justify-content: space-around;
+	padding: 15px;
+}
+
+.nav-lateral {
+	list-style-type: none;
+}
+
+.nav-link-lateral {
+	text-decoration: none;
+	font-family: 'Kaushan Script', cursive;
+	font-size: 0.8rem;
+}
+
+.nav-link-lateral,
+.nav-link-lateral:visited {
+	color: #fff;
+}
+
+.nav-link-lateral:hover,
+.nav-link-lateral:active {
+	color: red;
+}
+
+.conteudo-pcs {
+	background: #1C1C1C;
+	width: 77%;
+	height: 100%;
+	padding: 30px;
+	float: left;
+}
+
+
+
+.conteudo-pcs h1 {
+	color: #f0f0f0;
+	font-size: 3.0rem;
+	font-weight: 700;
+	margin-top: 30px;
+}
+
+.conteudo-pcs p {
+	color: #757575;
+	font-size: 1.5rem;
+	text-align: justify;
+	line-height: 2.0rem;
+	margin: 60px;	
+}
+
+h5 {
+	color: #757575;
+	font-size: 1.2rem;
+	text-align: center;
+	line-height: 2.0rem;
+
+}
+
+.card-figura {
+	text-align: center;
+}
+
+.card-figura img {
+	background-color: #fff;
+	align-items: center;
+	width: 300px;
+	height: 300px;
+	margin: 0;
+	border-radius: 8px;
+	box-shadow: 0px 4px 8px #9E9E9E;
+	transition: 0.5s;
+}
+
+.container-videos {
+	width: 80%;
+	margin: 40px auto;
+}
+
+.video-conteudo {
+	width: 100%;
+	margin: auto;
+	position: relative;
+	padding-bottom: 56.25%;
+}
+
+.videos iframe {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	border: none;
+}
+
+aside {
+	background-color: #f0f0f0;
+	height: 100vh;
+	width: 10%;
+	float: left;
+	position: sticky;
+	top: 0;
+}
+
+aside h6 {
+	color: #212525;
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+.aside-img {
+	width: 100px;
+	margin-left: 1px;
+}
+
+.aside-link {
+	color: #212525;
+	text-decoration: none;
+	font-size: 0.7rem;
+}
+
+.aside-link:hover {
+	color: red;
+	text-decoration: none;
+}
+
+.rodape-conteudo {
+	background-color: #212525;
+	position: relative;
+
+}
+
+#bt-topo {
+	width: 60px;
+	height: 60px;
+	background-color: #CD3333;
+	border-radius: 30px;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+}
+
+#bt-topo img {
+	width: 60px;
+	height: 60px;
+}
+
+
+/*pagina-fontes*/
+.fontes{
+	background: #1C1C1C;	
+	width: 100%;
+	height: 100%;		
+}
+
+#lista-fontes{
+	list-style-type: none;
+	text-align: center;
+	padding: 20px;
+	margin: 0;		
+}
+
+.links-fontes {
+	text-decoration: none;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1rem;
+	line-height: 2rem;
+}
+
+.links-fontes,
+.links-fontes:visited {
+	color: #fff;
+}
+
+.links-fontes:hover,
+.links-fontes:active {
+	color: red;
+}
+
+
+@media screen and (max-width: 999px) {
+	/*HOME*/
+	article{	
+		padding: 5px;		
+		width: 70%;	
+		height: 30%;
+		
+	}
+	
+	article p{		
+		font-size: 0.8rem;	
+		font-family:'Poppins', sans-serif;
+		text-align: left;
+		line-height: 1.7rem;
+		font-weight: 400;
+	}
+
+	footer{
+		height: 70px;
+	}
+
+	/*orçamento pc*/
+	.accordion-body {
+		display: flex;
+		margin: 0;
+	}
+
+	.card-preco {
+		background-color: #fff;
+		margin-left: 32px;
+		width: 25%;
+		border-radius: 8px;
+		box-shadow: 0px 4px 8px #9E9E9E;
+		transition: 0.5s;
+	}
+
+	.card-preco img {
+		width: 100%;
+		height: 150px;
+		padding: auto;
+	}
+
+	.card-preco h4 {
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 0.8rem;
+	}
+
+	.card-preco a {
+		text-align: left;
+		padding: 10px;
+		font-size: 0.7rem;
+	}
+
+	/*decadas*/
+	.menu-lateral,
+	.conteudo-pcs,
+	aside {
+		width: 100%;
+		position: relative;
+	}
+
+	.menu-lateral {
+		height: 60px;
+	}
+
+	ul {
+		display: flex;
+		justify-content: space-around;
+		padding: 10px;
+	}
+
+	.nav-link-lateral {
+		font-size: 0.9rem;
+	}
+
+	.conteudo-pcs h1 {
+		color: #f0f0f0;
+		font-size: 2.5rem;
+		font-weight: 700;
+		margin-top: 30px;
+	}
+
+	.conteudo-pcs p {
+		color: #757575;
+		font-size: 1.2rem;
+		text-align: justify;
+		line-height: 2.0rem;
+		margin: 60px;
+	}
+
+	h5 {
+		color: #757575;
+		font-size: 1rem;
+		text-align: center;
+		line-height: 2.0rem;
+
+	}
+
+	.card-figura {
+		text-align: center;
+	}
+
+	.card-figura img {
+		background-color: #fff;
+		align-items: center;
+		margin: 0;
+		border-radius: 8px;
+		box-shadow: 0px 4px 8px #9E9E9E;
+		transition: 0.5s;
+	}
+
+	aside {
+		height: 110px;
+		display: flex;
+		flex-wrap: wrap;
+
+	}
+
+	aside h6 {
+		font-size: 0.9rem;
+		line-height: 1.5rem;
+		text-align: center;
+	}
+
+	.aside-img {
+		width: 75px;
+		height: 80px;
+	}
+
+	.aside-link {
+		font-size: 0.6rem;
+	}
+
+	/*pagina fontes*/
+	.fontes h2{
+		font-size: 1.4rem;
+	}
+
+	#lista-fontes{
+		display: block;	
+		padding: 10px;
+		margin: 0;			
+	}
+	
+	.links-fontes {		
+		font-size: 0.6rem;
+		line-height: 1.7rem;
+	}
+
+}
+
+/*mobile*/
+@media screen and (max-width: 600px) {
+	/*HOME*/
+	main{
+		background: url("img/fundo2.png") no-repeat center center;
+		background-size: cover;	
+		height: 88vh;
+	}
+
+	article{				
+		width: 100%;	
+		height: 50%;		
+	}
+	
+	article p{		
+		color: #212525;
+		font-size: 0.7rem;	
+		font-family:'Poppins', sans-serif;
+		text-align: center;
+		line-height: 1.2rem;
+		font-weight: 400;
+	}
+
+	footer{		
+		padding: 20px;
+		height: 100px;		
+	}	
+
+	/*orçamento pc*/
+	h1 {
+		color: #FFF;
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+		font-size: 2rem;
+		padding: 30px;
+
+
+	}
+
+	h2 {
+		color: #FFF;
+		text-align: center;
+		font-family: 'Poppins', sans-serif;
+		font-size: 1.5rem;
+		margin-bottom: 10px;
+		padding: 40px;
+	}
+
+	.accordion-button {
+		font-size: 0.8rem;
+	}
+
+	.accordion-body {
+		display: block;
+		margin-left: 0;
+	}
+
+	.card-preco {
+		background-color: #fff;
+		margin-bottom: 30px;
+		margin-left: 45px;
+		width: 70%;
+		border-radius: 8px;
+		box-shadow: 0px 4px 8px #9E9E9E;
+		transition: 0.5s;
+	}
+
+	.card-preco img {
+		width: 100%;
+		height: 170px;
+		padding: auto;
+	}
+
+	.card-preco h4 {
+		text-align: center;
+		margin-bottom: 20px;
+		font-size: 0.9rem;
+	}
+
+	.card-preco a {
+		text-align: left;
+		padding: 10px;
+		font-size: 0.8rem;
+	}
+
+	/*decadas*/
+
+	.menu-lateral,
+	.conteudo-pcs,
+	aside {
+		width: 100%;
+		position: relative;
+	}
+
+	.menu-lateral {
+		height: 60px;
+	}
+
+	ul {
+		display: flex;
+		justify-content: space-around;
+		padding: 10px;
+	}
+
+	.nav-link-lateral {
+		font-size: 0.8rem;
+	}
+
+	.conteudo-pcs h1 {
+		color: #f0f0f0;
+		font-size: 2rem;
+		font-weight: 700;
+		margin-top: 30px;
+	}
+
+	.conteudo-pcs p {
+		color: #757575;
+		font-size: 1.3rem;
+		text-align: center;
+		line-height: 2rem;
+		margin: 60px 0px 50px;
+
+	}
+
+	h5 {
+		color: #757575;
+		font-size: 1rem;
+		text-align: center;
+		line-height: 2.0rem;
+
+	}
+
+	.card-figura {
+		text-align: center;
+	}
+
+	.card-figura img {
+		background-color: #fff;
+		align-items: center;
+		width: 250px;
+		height: 200px;
+		margin: 0;
+		border-radius: 8px;
+		box-shadow: 0px 4px 8px #9E9E9E;
+		transition: 0.5s;
+	}
+
+	.container-videos {
+		width: 80%;
+		margin: 40px auto;
+	}
+
+	.video-conteudo {
+		width: 100%;
+		margin: auto;
+		position: relative;
+		padding-bottom: 56.25%;
+	}
+
+	.videos iframe {
+		position: absolute;
+		width: 100%;
+		height: 100%;
+		border: none;
+	}
+
+	aside {
+		height: 120px;
+		display: inline-flex;
+		flex-wrap: wrap;
+	}
+
+	aside h6 {
+		font-size: 1rem;
+		line-height: 1.5rem;
+	}
+
+	.aside-img {
+		width: 75px;
+		height: 75px;
+	}
+
+	.aside-link {
+		font-size: 0.6rem;
+	}
+
+	#bt-topo {
+		width: 50px;
+		height: 50px;
+		background-color: #CD3333;		
+		border-radius: 25px;		
+		bottom: 50px;
+		right: 30px;
+	}
+
+	#bt-topo img {
+		width: 50px;
+		height: 50px;
+	}
+
+	/*pagina fontes*/
+	.fontes h2{
+		font-size: 1.2rem;
+	}
+
+	#lista-fontes{		
+		padding: 5px;		
+		text-align: center;			
+	}
+	
+	.links-fontes {				
+		font-size: 0.37rem;
+		line-height: 1.5rem;		
+	}
+
+}
